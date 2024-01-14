@@ -14,6 +14,7 @@ void main() {
           backgroundColor: Colors.orange[800],
           foregroundColor: Colors.white,
         ),
+        backgroundColor: Colors.brown[100],
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(11.0),
