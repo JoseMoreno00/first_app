@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// hello
 void main() {
   runApp(
     MaterialApp(
@@ -21,4 +20,4 @@ void main() {
     ),
   );
 }
-// hello
+
