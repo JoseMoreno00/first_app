@@ -5,13 +5,15 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Image(
-            image: AssetImage('assets/icono.png'),
+          title: Padding(
+            padding: const EdgeInsets.all(150.0),
+            child: Image(
+              image: AssetImage('assets/icono.png'),
+            ),
           ),
           backgroundColor: Colors.orange[800],
           foregroundColor: Colors.white,
         ),
-        backgroundColor: Colors.brown[100],
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(11.0),
